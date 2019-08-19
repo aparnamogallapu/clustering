@@ -9,7 +9,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-dataset2=pd.read_csv("C:\\Users\\HP\\Desktop\\u_datasets\\K_Means\\Mall_Customers.csv")
+dataset=pd.read_csv("C:\\Users\\HP\\Desktop\\u_datasets\\K_Means\\Mall_Customers.csv")
 X=dataset.iloc[:,[3,4]].values
 
 #elow method
